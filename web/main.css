@@ -1,0 +1,161 @@
+
+body{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14pt;
+    font-weight: 500;
+    margin: auto;
+    padding: 20px;
+    color: black;
+}
+.navbar-brand{
+    color: black;
+    font-weight: bold;
+
+}
+.nav-item{
+    margin-left: 20px;
+}
+.nav-item a{
+    text-decoration: none;
+}
+.sign-up{
+    padding: 8px 15px;
+    background-color: black;
+    color: white;
+}
+.sign-up:hover{
+    background-color: white;
+    color: #000;
+}
+#element-background{
+    max-height: 90vh;
+}
+.center{
+    margin: auto 0;
+}
+.title{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.btn-learn-more{
+    border : 2px solid black;
+    padding: 8px 15px;
+    background-color: white;
+    margin-left: 10px;
+}
+.btn-learn-more:hover{
+    background-color: black;
+    color: white;
+}
+.box-element{
+    padding: 30px 50px;
+    margin-bottom: 30px;
+    transition: 1s;
+}
+.sub-title{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.sub-content{
+    font-size: 13pt;
+}
+.content-2{
+    border-radius: 60px;
+    margin: 30px;
+    padding: 40px;
+    font-size: 13pt;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(40px);
+    background-clip: padding-box;
+    background-color:rgba(255, 255, 255, 0.1) ;
+}
+.content-2 button{
+    padding: 8px 15px;
+    background-color: white;
+    margin-top: 20px;
+    border: none;
+    color: black;
+    border: 3px solid rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    font-weight: 500;
+}
+.content-2 button:hover{
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+}
+.box-content{
+    background-color: black;
+    padding: 0;
+}
+.box-content img{
+    max-width:70vh; 
+    max-height:70vh;
+}
+.box-header{
+    margin: auto auto auto 50px ;
+    font-size: 1.4em;
+    color: white;
+    font-weight: bold;
+}
+.box-hover-effect{
+    background-color: black;
+    color: white;
+    transition: 1s ease-in-out;
+}
+.hidden{
+    display: none;
+}
+.box-2{
+    position: relative;
+    background-color: black;
+}
+#box-content-2 img{
+    position: relative;
+    max-width:70vh; 
+    max-height:70vh;
+}
+.box-3{
+    position: relative;
+    background-color: black;
+}
+#box-content-3 img{
+    position: relative;
+}
+.footer{
+    border-top: 3px solid rgb(0, 0, 0,0.15);
+    margin: auto;
+    padding: 50px 100px;
+    
+}
+.icon{
+    max-height: 40px;
+    max-width: 40px;
+    margin-right: 10px;
+}
+@media only screen and (max-width: 1400px){
+    .btn-learn-more{
+        display: none;
+    }
+    #box-content-3 img{
+        max-width: 540px;
+        object-fit: contain;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .btn-learn-more{
+        display: inline-block;
+    }
+    #box-content-3 img{
+        max-width: 450px;
+        object-fit: contain;
+    }
+}
+@media only screen and (max-width: 992px){
+    .nav-link1{
+        display: none;
+    }
+}
